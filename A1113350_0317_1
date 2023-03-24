@@ -1,0 +1,26 @@
+import java.util.*;
+public class A1113350_0317_1{
+    pubic static void main(String[] argv){
+        System.out.println("請輸入m值");
+        Scanner sc=sc.nextInt();
+        m=sc.nextInt();
+        System.out.println("請輸入n值");
+        n=sc.nextInt();
+
+        int[][] num=new int[m][n];
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                num[i][j]=(i+1)*(j+1);
+
+            }
+        }
+        for(int []i:num){
+            for(int j:i){
+                System.out.print(j+" ");
+            }
+        }
+        System.out.println("m*n值為:");
+
+
+    }
+}
